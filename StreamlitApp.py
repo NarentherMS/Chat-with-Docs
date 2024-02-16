@@ -5,11 +5,11 @@ from QAWithPDF.model_api import load_model
 
     
 def main():
-    st.set_page_config("QA with Documents")
+    st.set_page_config("Chat with PDFs")
     
     doc=st.file_uploader("upload your document")
     
-    st.header("QA with Documents(Information Retrieval)")
+    st.header("Chat with PDFs(Information Retrieval)")
     
     user_question= st.text_input("Ask your question")
     
